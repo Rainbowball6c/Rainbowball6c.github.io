@@ -1,0 +1,135 @@
+Package: modrinth-app
+Architecture: amd64
+Version: 0.10.24
+Priority: optional
+Maintainer: ModrinthApp
+Installed-Size: 22605
+Depends: libwebkit2gtk-4.1-0, libgtk-3-0
+Filename: pool/Modrinth App_0.10.24_amd64.deb
+Size: 12135804
+MD5sum: ea26ad12450368ea3d1ef82fef88a809
+SHA1: ca223cf79dfcd0100f0ae4b1a878850febb75cfd
+SHA256: 6a58024ccf910a564caefd050fced7d31d6ab8a30196d59799eb78752123837f
+SHA512: 54007ad4af18786875dbe0ff901140f445cb598953fd02f92adc2cb1ea8115bbaa23fa233c782903ee36db08415eed73f5dc8f2c67f5905339a0871497db30e3
+Description: (none)
+ (none)
+
+Package: apache-netbeans
+Architecture: amd64
+Version: 29-1
+Priority: optional
+Maintainer: Codelerity Ltd. <info@codelerity.com>
+Recommends:
+Filename: pool/apache-netbeans_29-1_amd64.deb
+Size: 536135744
+MD5sum: 1f671b477b05fd9415b63fd6df39b9fe
+SHA1: 8c5c6abc1e23e07408c4b259140087299e6236d6
+SHA256: 5e4a96e18826756cdb3f3d44f6110755a146a16ee0c0283096e90e31d893c57b
+SHA512: 2f5825697d6e7e09d0a1bc836fe1764c6043d2c85dbc6a7a6d66440ade8252523fc1ed2d8750e2ce6fe7c5d4ac339edc34220b8517707b6488d90a77b588f125
+Description: Package of Apache NetBeans 29.
+
+Package: code
+Architecture: amd64
+Version: 1.106.3-1764110892
+Priority: optional
+Section: devel
+Maintainer: Microsoft Corporation <vscode-linux@microsoft.com>
+Installed-Size: 449776
+Provides: visual-studio-code
+Depends: ca-certificates, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.11.90), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.14), libc6 (>= 2.16), libc6 (>= 2.17), libc6 (>= 2.2.5), libc6 (>= 2.25), libc6 (>= 2.28), libcairo2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.9.10), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libnss3 (>= 3.26), libpango-1.0-0 (>= 1.14.0), libudev1 (>= 183), libx11-6, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxrandr2, xdg-utils (>= 1.0.2)
+Recommends: libvulkan1
+Conflicts: visual-studio-code
+Replaces: visual-studio-code
+Filename: pool/code_1.106.3-1764110892_amd64.deb
+Size: 113519914
+MD5sum: f6ae08d23bce1aa1453fc51f80ed4934
+SHA1: b8aaf87d2fbb01002a439db0e28e9a9afbabea9b
+SHA256: f26c3a808fb2d34107b353b2ce73fd0acee012f90ffe598deff50789739152cc
+SHA512: 40a3762dd23b5b6fe7162ade160bffe2ae6618046d4b96c8e5a49ff297146f46a04ec10296adcc4cc8a03bee1cdae4c31d4246e48bea03169d43604ead102504
+Homepage: https://code.visualstudio.com/
+Description: Code editing. Redefined.
+ Visual Studio Code is a new choice of tool that combines the simplicity of
+ a code editor with what developers need for the core edit-build-debug cycle.
+ See https://code.visualstudio.com/docs/setup/linux for installation
+ instructions and FAQ.
+
+Package: freetube
+Architecture: amd64
+Version: 0.23.11
+Priority: optional
+Section: default
+Maintainer: FreeTube Team <FreeTubeApp@protonmail.com>
+Installed-Size: 272222
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Filename: pool/freetube_0.23.11_beta_amd64.deb
+Size: 76246408
+MD5sum: 3e311f33a6fc1adda6903391d4ce605f
+SHA1: 958d015a59de9397353e856c5f4b2edec43b725b
+SHA256: eaa3781cac79e760f71ddd3b56bcbf95e6b7e9d7610e309d1b535d53d806b836
+SHA512: 252a57aa10c0e3f8040df4c903d896b2294463963038282d772a3ddceea02b62a89afb28cade65b68760da2652a42234e8452fd80e7927dcb9b2334067e0b768
+Homepage: https://github.com/FreeTubeApp/FreeTube#readme
+Description: 
+  A private YouTube client
+License: AGPL-3.0-or-later
+Vendor: FreeTube Team <FreeTubeApp@protonmail.com>
+
+Package: gzdoom
+Architecture: amd64
+Version: 4.0.0
+Priority: optional
+Section: games
+Maintainer: DRD Team <admin@maniacsvault.net>
+Installed-Size: 24208
+Depends: libc6, libstdc++6, libgomp1, libsdl2-2.0-0, zlib1g, libbz2-1.0
+Recommends: timidity, libfluidsynth1, libopenal1, libsndfile1, libmpg123-0
+Conflicts: gzdoom1, gzdoom-legacy
+Filename: pool/gzdoom_4.0.0_amd64.deb
+Size: 11091568
+MD5sum: 2dd541a3467331ea0cb43ae5cb1e9b94
+SHA1: 5fe3dafaf45dae84c42e1e4e75b31f7be3bea3ba
+SHA256: 9903bc9154d0f7c4a83dbe1a83f5f460f277a8d2c55d9b51a6325f8e725580d1
+SHA512: 47aea091189166f5469a28d4816b2311f8e49db27cc75c68458ea5f78870045450fba4ee14d2a6cf1145cef6a6e8e9a03ed7dcddeccf1d8689d1301c01b794e3
+Description: OpenGL version of ZDoom.
+
+Package: libbabl-0.1-0
+Architecture: amd64
+Version: 1:0.1.108-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: babl
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 1797
+Depends: libc6 (>= 2.38), liblcms2-2 (>= 2.8)
+Filename: pool/libbabl-0.1-0_1%3a0.1.108-1_amd64.deb
+Size: 455758
+MD5sum: 294288d1b524eaa4ceba7b97a166e662
+SHA1: 0854c2e6c2ee73cbc8db7b816f598148d2c10d86
+SHA256: ec7c6040e86319cf2bcd90433d6632f1018cdf0635f406e8d7c1a6df25c296a3
+SHA512: 63c3681864a3b85631e0ba1b8e28fc3f9efc47633a0f6c37fb761ce243650a8b7bb890854a7699353aa91765185702a02239c820f492a70eadf106a6e0cac181
+Homepage: https://gegl.org/babl/
+Description: Dynamic, any to any, pixel format conversion library
+ Babl is a dynamic, any to any, pixel format conversion library. It
+ provides conversions between the myriad of buffer types images can be
+ stored in. Babl doesn't only help with existing pixel formats, but
+ also facilitates creation of new and uncommon ones.
+
+Package: lzdoom
+Architecture: amd64
+Version: 3.88b
+Priority: optional
+Section: games
+Maintainer: DRD Team <admin@maniacsvault.net>
+Installed-Size: 20528
+Depends: libc6, libstdc++6, libgomp1, libsdl2-2.0-0, zlib1g, libbz2-1.0
+Recommends: timidity, libfluidsynth1, libopenal1, libsndfile1, libmpg123-0
+Filename: pool/lzdoom_3.88b_amd64.deb
+Size: 9468184
+MD5sum: c0af915c6004a420bc3b7c0a1b3c6cad
+SHA1: 2fe9024998a3f2af82ff3cd34749490457723518
+SHA256: 78a79f88ade1bca7ffa146b28304077ab18200c898cd79c3c7c3b142bc8a7ede
+SHA512: 2843e0b0455d32183cb9d5bc09057d95966f747fb9d1cd70558829eda333fdab26b229a0cd66b597b25aff622ac69d6afb09f8786fc499e40317900582a50157
+Description: Fork of GZDoom 3.3.2 for legacy systems.
+
